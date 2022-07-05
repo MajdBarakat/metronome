@@ -16,6 +16,8 @@ body.dark {
   font-weight: 500;
   color: var(--primary);
   user-select: none;
+  transition: color 0.2s ease-in-out;
+  transition: background-color 0.2s ease-in-out;
 }
 
 html {
@@ -51,6 +53,11 @@ h2 {
 button {
   border: none;
   cursor: pointer;
+  transition: opacity 0.1s ease-in;
+}
+
+button:hover {
+  opacity: 0.8;
 }
 
 .app-container {
@@ -95,7 +102,7 @@ button {
 .inc {
   width: 40px;
   height: 40px;
-  background: var(--primary);
+  background-color: var(--primary);
 }
 
 .dec {
@@ -120,7 +127,7 @@ button {
 .controller {
   width: 100px;
   height: 100px;
-  background: var(--primary);
+  background-color: var(--primary);
   margin: 2.5rem 0;
 }
 
@@ -176,7 +183,7 @@ button {
   width: 25px;
   height: 25px;
   margin: 0 10px;
-  background: var(--primary);
+  background-color: var(--primary);
   mask-image: url("./assets/arrow.svg");
   transform: rotate(180deg);
   transition: transform 0.1s ease-in-out;
@@ -238,7 +245,7 @@ input[type="range"]::-webkit-slider-runnable-track {
   -webkit-appearance: none;
   width: 100%;
   height: 40px;
-  background: linear-gradient(
+  background-color: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0) 45%,
     var(--gray) 45%,
@@ -250,7 +257,7 @@ input[type="range"]::-moz-range-track {
   -webkit-appearance: none;
   width: 100%;
   height: 40px;
-  background: linear-gradient(
+  background-color: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0) 45%,
     var(--gray) 45%,
@@ -262,7 +269,7 @@ input[type="range"]::-ms-track {
   -webkit-appearance: none;
   width: 100%;
   height: 40px;
-  background: linear-gradient(
+  background-color: linear-gradient(
     0deg,
     rgba(0, 0, 0, 0) 45%,
     var(--gray) 45%,
@@ -275,7 +282,7 @@ input[type="range"]::-webkit-slider-thumb {
   -webkit-appearance: none;
   width: 40px;
   height: 40px;
-  background: var(--primary);
+  background-color: var(--primary);
   border-radius: 50%;
   cursor: pointer;
   border: none;
@@ -284,7 +291,7 @@ input[type="range"]::-moz-range-thumb {
   -webkit-appearance: none;
   width: 40px;
   height: 40px;
-  background: var(--primary);
+  background-color: var(--primary);
   border-radius: 50%;
   cursor: pointer;
   border: none;
@@ -294,7 +301,7 @@ input[type="range"]::-ms-thumb {
   -webkit-appearance: none;
   width: 40px;
   height: 40px;
-  background: var(--primary);
+  background-color: var(--primary);
   border-radius: 50%;
   cursor: pointer;
   border: none;
