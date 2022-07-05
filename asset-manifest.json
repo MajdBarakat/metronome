@@ -1,6 +1,6 @@
 {
   "files": {
-    "main.css": "/metronome/static/css/main.9bb9e4c7.css",
+    "main.css": "/metronome/static/css/main.07538188.css",
     "main.js": "/metronome/static/js/main.240a4641.js",
     "static/media/sun.svg": "/metronome/static/media/sun.7df64d382577f25c48d3.svg",
     "static/media/moon.svg": "/metronome/static/media/moon.9e5e75cf28ddd15dc9c5.svg",
@@ -10,11 +10,11 @@
     "static/media/play.svg": "/metronome/static/media/play.af62b414d03d4c7acffc.svg",
     "static/media/plus.svg": "/metronome/static/media/plus.f07a55cc921f1fdfd12a.svg",
     "static/media/minus.svg": "/metronome/static/media/minus.0806279a1ce3c4c9ce7d.svg",
-    "main.9bb9e4c7.css.map": "/metronome/static/css/main.9bb9e4c7.css.map",
+    "main.07538188.css.map": "/metronome/static/css/main.07538188.css.map",
     "main.240a4641.js.map": "/metronome/static/js/main.240a4641.js.map"
   },
   "entrypoints": [
-    "static/css/main.9bb9e4c7.css",
+    "static/css/main.07538188.css",
     "static/js/main.240a4641.js"
   ]
 }
