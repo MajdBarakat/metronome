@@ -29,7 +29,6 @@ class Metronome extends Component {
   audioContext = null;
   nextNoteTime = 0;
   interval = null;
-  intervalVisual = null;
 
   schedule = (time) => {
     const { tempo, currentBeat, beatCount, stressOn, skippingOn } = this.state;
@@ -78,14 +77,12 @@ class Metronome extends Component {
   };
 
   stopSound = () => {
-    clearInterval(this.intervalVisual);
     clearInterval(this.interval);
     this.interval = null;
   };
 
   tapTempo = () => {
     const { tempo, prevClick } = this.state;
-    let state = { ...this.state };
     let click = new Date().getTime();
     let tapTempo = tempo;
     if (prevClick) {
